@@ -1,4 +1,6 @@
 # OmniDB
+OmniDB 2.8.0 on openSUSE Leap 15.0
+
 [OmniDB](https://www.omnidb.org/en/) is a browser-based tool that simplifies database management focusing on interactivity, designed to be powerful and lightweight.
 
 # Prepare the environment
