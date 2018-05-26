@@ -19,6 +19,7 @@ RUN cd /opt/OmniDB-${OMNIDB_VERSION} && pip3 install pip --upgrade && pip3 insta
 RUN mkdir -p /data
 
 EXPOSE 8080
+EXPOSE 25482
 
 WORKDIR /opt/OmniDB-${OMNIDB_VERSION}/OmniDB
 
