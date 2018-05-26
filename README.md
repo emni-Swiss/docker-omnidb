@@ -1,2 +1,13 @@
-# docker-omnidb
-OmniDB 2.8.0 on openSUSE Leap 15.0
+# Prepare the environment
+```bash
+mkdir -p /serverdata/wwwdata/_config/_omnidb
+```
+# Running
+```bash
+docker run --name omnidb -it --rm -p 9336:8080 \
+  -v /serverdata/wwwdata/_config/_omnidb:/data \
+  emni/omnidb
+```
+# Login
+Open [http://localhost:9336](http://localhost:9336)
+Default login username: "admin" and password "admin".
