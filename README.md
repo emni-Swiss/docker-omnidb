@@ -4,7 +4,9 @@ mkdir -p /serverdata/wwwdata/_config/_omnidb
 ```
 # Running
 ```bash
-docker run --name omnidb -it --rm -p 9336:8080 \
+docker run --name omnidb -it --rm 
+  -p 9336:8080 \
+  -p 25482:25482 \
   -v /serverdata/wwwdata/_config/_omnidb:/data \
   emni/omnidb
 ```
