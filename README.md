@@ -10,4 +10,5 @@ docker run --name omnidb -it --rm -p 9336:8080 \
 ```
 # Login
 Open [http://localhost:9336](http://localhost:9336)
+
 Default login username: "admin" and password "admin".
