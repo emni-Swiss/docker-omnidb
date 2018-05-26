@@ -1,6 +1,10 @@
+# OmniDB
+[OmniDB](https://www.omnidb.org/en/) is a browser-based tool that simplifies database management focusing on interactivity, designed to be powerful and lightweight.
+
 # Prepare the environment
 ```bash
 mkdir -p /serverdata/wwwdata/_config/_omnidb
+docker pull emni/omnidb
 ```
 # Running
 for testing
@@ -23,3 +27,4 @@ docker run --name omnidb -d \
 Open [http://localhost:9336](http://localhost:9336)
 
 Default login username: "admin" and password "admin".
+
